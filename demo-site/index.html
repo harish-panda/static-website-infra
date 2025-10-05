@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Website Deployed</title>
+</head>
+<body>
+  <h1>Deployment Successful</h1>
+  <p>Content served from <strong id="host"></strong> via CloudFront.</p>
+  <a href="/404-test">Test Error Page</a>
+
+  <script>
+    document.getElementById("host").innerText = window.location.hostname;
+  </script>
+</body>
+</html>
+
